@@ -1,0 +1,36 @@
+h1,h2,p {
+        text-align:center;
+    }
+.menu{
+    width: 80%;
+    background-color: violet;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    max-width: 900px;
+}
+
+.item p {
+    display:inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.OctoDelights, .SaucesToppings, .ExoticFillings, .Drinks{
+    text-align: left;
+    width: 33%;
+}
+
+.price {
+    text-align: right;
+    width: 33%;
+}
+
+.description {
+    text-align: center;
+    width: 33%;
+}
+
+body {
+    background-image: url(background.jpg);
+}
